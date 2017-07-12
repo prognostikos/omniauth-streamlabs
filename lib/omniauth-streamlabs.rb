@@ -1,1 +1,1 @@
-require "omniauth/streamlabs/version"
+require "omniauth/streamlabs"
