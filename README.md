@@ -46,9 +46,11 @@ Here's an example *Auth Hash* available in `request.env['omniauth.auth']`:
   },
   extra: {
     raw_info: {
-      display_name: 'johndoe',
-      name: 'JohnDoe',
-      _id: 12345678,
+      twitch: {
+        display_name: 'johndoe',
+        name: 'JohnDoe',
+        _id: 12345678,
+      },
     }
   }
 }
