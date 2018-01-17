@@ -20,12 +20,12 @@ module OmniAuth
 
       option :authorize_options, [:scope]
 
-      uid{ raw_info['twitch']['id'] }
+      uid{ raw_info['streamlabs']['id'] }
 
       info do
         {
-          display_name: raw_info['twitch']['display_name'],
-          name: raw_info['twitch']['name']
+          display_name: raw_info['streamlabs']['display_name'],
+          name: raw_info['streamlabs']['display_name']
         }
       end
 
